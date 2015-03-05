@@ -1,0 +1,9 @@
+<Rewrite>
+	<rules>
+		<rule name="Rule1">
+			<match url="capture" />
+			<action type="Rewrite" url="rewriteUrl" />
+        </rule>
+    </rules>
+</Rewrite>
+

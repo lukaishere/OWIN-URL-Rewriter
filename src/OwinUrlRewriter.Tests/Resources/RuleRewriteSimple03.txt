@@ -1,0 +1,8 @@
+  <Rewrite>
+            <rules>
+                <rule name="Rule1" stopProcessing="true">
+                    <match url="capture" ignoreCase="false" />
+                    <action type="Rewrite" url="rewriteUrl" appendQueryString="false" />
+                </rule>
+            </rules>
+        </Rewrite>
